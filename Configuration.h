@@ -236,10 +236,9 @@
   #define PID_dT ((16.0 * 8.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
 // If you are using a preconfigured hotend then you can use one of the value sets by uncommenting it
-// J-Head with 12v 40W heater cartridge
-    #define  DEFAULT_Kp 15.34
-    #define  DEFAULT_Ki 1.57
-    #define  DEFAULT_Kd 37.45
+    #define  DEFAULT_Kp 27.08
+    #define  DEFAULT_Ki 2.63
+    #define  DEFAULT_Kd 69.67
 
 // Makergear
 //    #define  DEFAULT_Kp 7.0
